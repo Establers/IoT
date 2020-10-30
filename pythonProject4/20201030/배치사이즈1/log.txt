@@ -1,0 +1,55 @@
+[INFO] compiling model...
+[INFO] training head...
+Epoch 1/20
+269/269 [==============================] - 14s 50ms/step - loss: 0.3536 - accuracy: 0.8662 - val_loss: 0.0689 - val_accuracy: 0.9853
+Epoch 2/20
+269/269 [==============================] - 9s 33ms/step - loss: 0.0677 - accuracy: 0.9888 - val_loss: 0.0189 - val_accuracy: 1.0000
+Epoch 3/20
+269/269 [==============================] - 9s 32ms/step - loss: 0.0322 - accuracy: 0.9963 - val_loss: 0.0127 - val_accuracy: 1.0000
+Epoch 4/20
+269/269 [==============================] - 9s 33ms/step - loss: 0.0286 - accuracy: 0.9926 - val_loss: 0.0132 - val_accuracy: 1.0000
+Epoch 5/20
+269/269 [==============================] - 9s 34ms/step - loss: 0.0269 - accuracy: 0.9888 - val_loss: 0.0040 - val_accuracy: 1.0000
+Epoch 6/20
+269/269 [==============================] - 9s 35ms/step - loss: 0.0121 - accuracy: 0.9963 - val_loss: 0.0026 - val_accuracy: 1.0000
+Epoch 7/20
+269/269 [==============================] - 10s 35ms/step - loss: 0.0166 - accuracy: 0.9926 - val_loss: 0.0022 - val_accuracy: 1.0000
+Epoch 8/20
+269/269 [==============================] - 10s 36ms/step - loss: 0.0124 - accuracy: 0.9963 - val_loss: 0.0021 - val_accuracy: 1.0000
+Epoch 9/20
+269/269 [==============================] - 10s 36ms/step - loss: 0.0057 - accuracy: 1.0000 - val_loss: 0.0015 - val_accuracy: 1.0000
+Epoch 10/20
+269/269 [==============================] - 9s 35ms/step - loss: 0.0163 - accuracy: 0.9926 - val_loss: 0.0011 - val_accuracy: 1.0000
+Epoch 11/20
+269/269 [==============================] - 9s 34ms/step - loss: 0.0021 - accuracy: 1.0000 - val_loss: 9.8871e-04 - val_accuracy: 1.0000
+Epoch 12/20
+269/269 [==============================] - 9s 35ms/step - loss: 0.0032 - accuracy: 1.0000 - val_loss: 8.6545e-04 - val_accuracy: 1.0000
+Epoch 13/20
+269/269 [==============================] - 9s 34ms/step - loss: 0.0015 - accuracy: 1.0000 - val_loss: 7.8027e-04 - val_accuracy: 1.0000
+Epoch 14/20
+269/269 [==============================] - 9s 35ms/step - loss: 0.0027 - accuracy: 1.0000 - val_loss: 8.1333e-04 - val_accuracy: 1.0000
+Epoch 15/20
+269/269 [==============================] - 10s 36ms/step - loss: 0.0041 - accuracy: 1.0000 - val_loss: 5.1435e-04 - val_accuracy: 1.0000
+Epoch 16/20
+269/269 [==============================] - 10s 36ms/step - loss: 0.0022 - accuracy: 1.0000 - val_loss: 0.0010 - val_accuracy: 1.0000
+Epoch 17/20
+269/269 [==============================] - 10s 36ms/step - loss: 0.0064 - accuracy: 0.9963 - val_loss: 3.5514e-04 - val_accuracy: 1.0000
+Epoch 18/20
+269/269 [==============================] - 9s 34ms/step - loss: 0.0019 - accuracy: 1.0000 - val_loss: 4.2952e-04 - val_accuracy: 1.0000
+Epoch 19/20
+269/269 [==============================] - 9s 35ms/step - loss: 0.0019 - accuracy: 1.0000 - val_loss: 3.1399e-04 - val_accuracy: 1.0000
+Epoch 20/20
+269/269 [==============================] - 9s 34ms/step - loss: 0.0018 - accuracy: 1.0000 - val_loss: 2.1939e-04 - val_accuracy: 1.0000
+[INFO] evaluating network...
+              precision    recall  f1-score   support
+
+   with_mask       1.00      1.00      1.00        26
+without_mask       1.00      1.00      1.00        42
+
+    accuracy                           1.00        68
+   macro avg       1.00      1.00      1.00        68
+weighted avg       1.00      1.00      1.00        68
+
+[INFO] saving mask detector model...
+
+Process finished with exit code 0
